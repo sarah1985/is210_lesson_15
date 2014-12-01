@@ -27,7 +27,7 @@ Task 01
 -------
 
 #.  Install Beautiful Soup on your computer. Follow the installation guide available
-online.
+    online.
 
 http://beautiful-soup-4.readthedocs.org/en/latest/#installing-beautiful-soup
 
