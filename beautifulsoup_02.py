@@ -19,7 +19,5 @@ def obama_net_neutrality():
 
 
 if __name__ == '__main__':
-    # You can use this conditional block for debugging
-    #print HTML_SOUP
+
     print obama_net_neutrality()
-    pass
