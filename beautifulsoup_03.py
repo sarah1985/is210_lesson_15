@@ -24,9 +24,9 @@ def sps_it_department():
         email = emails[index].get_text()
 
         contact_dict = {
-            "First Name": first_name,
-            "Last Name": last_name,
-            "Email": email
+            "first_name": first_name,
+            "last_name": last_name,
+            "email": email
         }
 
         contacts.append(contact_dict)
