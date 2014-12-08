@@ -13,11 +13,11 @@ HTML_SOUP = BeautifulSoup(DATA)
 def obama_net_neutrality():
     """obama net neutrality beautifulsoup"""
 
-    statement = HTML_SOUP.find("p", {"class": "intro-paragraph"})
+    statement = HTML_SOUP.find("p", {"class": "displayed"})
 
-    return statement.texts
+    return statement
 
 
 if __name__ == '__main__':
-
+    print HTML_SOUP
     print obama_net_neutrality()
